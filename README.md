@@ -3,8 +3,8 @@
 Diabetes is one of the most widespread chronic diseases in the United States, with profound health and economic impacts. The condition arises when the body cannot properly produce or use insulin, leading to elevated blood sugar levels. Early diagnosis is critical to managing diabetes effectively and preventing complications such as heart disease, kidney failure, and vision loss.
 
 This project explores the development of a machine learning model that predicts the presence of diabetes using survey data from the CDC’s 2015 Behavioral Risk Factor Surveillance System (BRFSS). The model’s goal is to assist in early screening efforts, especially in populations at high risk.
-
-1.1 | Problem Statement
+**
+1.1 | Problem Statement**
 The objective of this project is to develop a predictive model that determines whether an individual has diabetes (binary outcome: 0 = no, 1 = yes) using survey responses collected in BRFSS 2015. The original dataset contains 330 features and 441,455 samples. Due to the dataset’s size and complexity, we focus on a curated subset of 21 relevant features strongly associated with diabetes, based on public health literature.
 
 **The final model aims to:**
