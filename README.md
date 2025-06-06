@@ -4,7 +4,7 @@ Diabetes is one of the most widespread chronic diseases in the United States, wi
 
 This project explores the development of a machine learning model that predicts the presence of diabetes using survey data from the CDC’s 2015 Behavioral Risk Factor Surveillance System (BRFSS). The model’s goal is to assist in early screening efforts, especially in populations at high risk.
 **
-1.1 | Problem Statement**
+**1.1 | Problem Statement****
 The objective of this project is to develop a predictive model that determines whether an individual has diabetes (binary outcome: 0 = no, 1 = yes) using survey responses collected in BRFSS 2015. The original dataset contains 330 features and 441,455 samples. Due to the dataset’s size and complexity, we focus on a curated subset of 21 relevant features strongly associated with diabetes, based on public health literature.
 
 **The final model aims to:**
@@ -29,7 +29,7 @@ The dataset used for this analysis includes 21 variables most relevant to diabet
 It is derived from the uncleaned full BRFSS data, filtered and cleaned using medical research and domain expertise.
 
 Target Variable:
-Diabetes_binary: 0 = no diabetes, 1 = prediabetes or diabetes.
+Diabetes_012: 0 = no diabetes, 1 = prediabetes or diabetes.
 
 Key Features:
 HighBP, HighChol, CholCheck, BMI, Smoker, Stroke, HeartDiseaseorAttack, PhysActivity, Fruits, Veggies, HvyAlcoholConsump, AnyHealthcare, NoDocbcCost, GenHlth, MentHlth, PhysHlth, DiffWalk, Sex, Age, Education, Income.
@@ -102,6 +102,7 @@ Random Forest: n_estimators, max_depth, min_samples_split
 XGBoost: learning_rate, max_depth, gamma, subsample
 
 **6.0 | Evaluation & Validation**
+•	Random FOrest gave the best results with highest test accuracy and balanced precision/recall
 Metrics:
 Accuracy
 
@@ -118,11 +119,8 @@ XGBoost
 
 Accuracy: 0.86
 
-Precision: 0.78
+Precision: 0.48
 
-Recall: 0.76
+Recall: 0.34
 
-AUC: 0.89
 
-Validation:
-Stratified train-test split and cross-validation used to avoid data leakage and overfitting.
