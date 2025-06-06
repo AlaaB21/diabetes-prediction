@@ -1,4 +1,8 @@
 # diabetes-prediction
+app link: https://diabetes-prediction-5kfzyjp9g9yqckbq94ltia.streamlit.app/
+Video Link: https://nileuniversity-my.sharepoint.com/personal/a_bassam2252_nu_edu_eg/_layouts/15/stream.aspx?id=%2Fpersonal%2Fa%5Fbassam2252%5Fnu%5Fedu%5Feg%2FDocuments%2FRecordings%2FMeeting%20with%20Alaa%20Bassam%20Heikal%2D20250606%5F154619%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb3839a4d%2Dbcc5%2D4c84%2Db0e1%2Df0539159dc62
+
+
 **1.0 | Introduction**
 Diabetes is one of the most widespread chronic diseases in the United States, with profound health and economic impacts. The condition arises when the body cannot properly produce or use insulin, leading to elevated blood sugar levels. Early diagnosis is critical to managing diabetes effectively and preventing complications such as heart disease, kidney failure, and vision loss.
 
